@@ -4,7 +4,7 @@ steps:
   args:
   - '-c'
   - |
-    docker pull asia.gcr.io/$PROJECT_ID/${_REPOSITORY_NAME}:$(cat tag.txt) || exit 0
+    docker pull asia.gcr.io/$PROJECT_ID/${_REPOSITORY_NAME} || exit 0
 - name: 'gcr.io/cloud-builders/docker'
   entrypoint: 'bash'
   args: ['-c', 'docker build -t asia.gcr.io/$PROJECT_ID/${_REPOSITORY_NAME} .']
