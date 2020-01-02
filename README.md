@@ -28,8 +28,8 @@ If you use Google Cloud Pub/Sub and Google Cloud Run on GKE, you must validate P
 Please　use this library in such a case.
 
 # ref
-https://github.com/futurenda/google-auth-id-token-verifier
-https://github.com/golang/oauth2/blob/master/jws/jws.go
-https://cloud.google.com/run/docs/tutorials/pubsub
-https://developers.google.com/identity/protocols/OpenIDConnect?_ga=2.157273531.-1681326071.1575298365#validatinganidtoken
+- https://github.com/futurenda/google-auth-id-token-verifier
+- https://github.com/golang/oauth2/blob/master/jws/jws.go
+- https://cloud.google.com/run/docs/tutorials/pubsub
+- https://developers.google.com/identity/protocols/OpenIDConnect?_ga=2.157273531.-1681326071.1575298365#validatinganidtoken
 
